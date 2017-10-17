@@ -1,23 +1,25 @@
 <?php
+/** 
+ *
+ * @category        modules
+ * @package         minicarousel
+ * @author          Ruud Eisinga / Dev4me
+ * @link			https://dev4me.com
+ * @license         http://www.gnu.org/licenses/gpl.html
+ * @platform        WebsiteBaker >= 2.8.3 SP7
+ * @requirements    PHP 5.6 and higher
+ * @version         0.29
+ * @lastmodified    May 29, 2017
+ *
+ 
+ version 0.29 
+   - Use section titles in section list when available
 
-/*
-
- Website Baker Project <http://www.websitebaker.org/>
- Copyright (C) 2004-2008, Ryan Djurovich
-
- Website Baker is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
-
- Website Baker is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
- You should have received a copy of the GNU General Public License
- along with Website Baker; if not, write to the Free Software
- Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ version 0.28
+   - Solved a conflict with other modules pages list
+ 
+ version 0.27
+  - Respect display date settings of the included section
  
  version 0.26
   - Improved loading of larger websites (many sections to pick) - Thnx sare
@@ -54,9 +56,9 @@
 $module_directory = 'section_picker';
 $module_name = 'Section Picker';
 $module_function = 'page';
-$module_version = '0.26';
-$module_platform = '2.6.x';
-$module_author = 'Ruud Eisinga';
+$module_version = '0.29';
+$module_platform = '2.8.x';
+$module_author = 'Ruud Eisinga / Dev4me';
 $module_license = 'GNU General Public License';
 $module_description = 'This module allows you to insert a section from another page.';
 
